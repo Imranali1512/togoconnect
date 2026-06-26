@@ -34,7 +34,7 @@ export default function Navbar() {
         <div className="container navbar-inner">
           <Link to="/" className="navbar-logo">
             <div className="logo-icon">T</div>
-            TogoConnect
+            Togo<span style={{color:"#15803d"}}>Connect</span>
           </Link>
 
           <div className="navbar-links">
@@ -81,7 +81,7 @@ export default function Navbar() {
             <div className="mobile-menu-header">
               <div className="navbar-logo">
                 <div className="logo-icon">T</div>
-                TogoConnect
+                Togo<span style={{color:"#15803d"}}>Connect</span>
               </div>
               <button className="mobile-menu-close" onClick={() => setMenuOpen(false)}>✕</button>
             </div>
