@@ -2,7 +2,7 @@
 
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --g:#16a34a;--gd:#14532d;--gl:#dcfce7;--gm:#4ade80;
+  --g:#15803d;--gd:#14532d;--gl:#dcfce7;--gm:#16a34a;
   --t:#0f1923;--tm:#374151;--tl:#6b7280;
   --b:#e2e8f0;--bl:#f1f5f9;--bg:#f8fafc;--w:#fff;
   --r:12px;--rl:18px;
