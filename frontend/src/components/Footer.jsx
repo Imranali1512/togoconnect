@@ -27,11 +27,11 @@ export default function Footer() {
           <div className="footer-brand">
             <div className="footer-logo">
               <div className="footer-logo-icon">T</div>
-              <span className="footer-logo-text">TogoConnect</span>
+              <span className="footer-logo-text">Togo<span style={{color:"#15803d"}}>Connect</span></span>
             </div>
             <p>The simple, trusted way to find and offer local services across Togo and West Africa.</p>
             <div style={{ marginTop:16, fontSize:13, color:'#334155' }}>
-              <div>📧 hello@togoconnect.com</div>
+              <div>📧 hello@Togo<span style={{color:"#15803d"}}>Connect</span>.com</div>
               <div style={{ marginTop:4 }}>📍 Lomé, Togo</div>
             </div>
             <div className="footer-social" style={{ marginTop:16 }}>
@@ -70,7 +70,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <span>© 2026 TogoConnect. All Rights Reserved. Built by <strong style={{ color:'#5DCAA5' }}>Qaim Systems</strong>.</span>
+          <span>© 2026 Togo<span style={{color:"#15803d"}}>Connect</span>. All Rights Reserved. Built by <strong style={{ color:'#5DCAA5' }}>Qaim Systems</strong>.</span>
           <div className="footer-badge">
             <span className="footer-badge-dot"></span>
             All systems operational
@@ -80,3 +80,4 @@ export default function Footer() {
     </footer>
   );
 }
+

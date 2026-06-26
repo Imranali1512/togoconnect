@@ -30,7 +30,7 @@ button{cursor:pointer;font-family:inherit}
 .navbar{position:sticky;top:0;z-index:200;background:rgba(255,255,255,.95);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--bl);transition:box-shadow .2s}
 .navbar.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.08)}
 .navbar-inner{display:flex;align-items:center;justify-content:space-between;height:66px;gap:24px}
-.navbar-logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:17px;color:var(--t);letter-spacing:-.02em}
+.navbar-logo{display:flex;align-items:center;gap:6px;font-weight:800;font-size:17px;color:var(--t);letter-spacing:-.02em}
 .logo-icon{width:34px;height:34px;background:linear-gradient(135deg,var(--g),var(--gd));border-radius:10px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:15px;box-shadow:0 2px 8px rgba(22,163,74,.3)}
 .navbar-links{display:flex;gap:2px}
 .nav-link{padding:8px 14px;border-radius:8px;font-size:14px;font-weight:500;color:#374151;transition:all .15s}

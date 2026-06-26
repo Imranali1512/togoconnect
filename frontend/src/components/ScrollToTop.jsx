@@ -7,7 +7,7 @@ export default function ScrollToTop() {
 
   // Smooth scroll to top on route change
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: 'instant' });
   }, [pathname]);
 
   // Show/hide scroll button
@@ -17,7 +17,7 @@ export default function ScrollToTop() {
     return () => window.removeEventListener('scroll', fn);
   }, []);
 
-  const scrollUp = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+  const scrollUp = () => window.scrollTo({ top: 0, behavior: 'instant' });
 
   return (
     <button
@@ -31,3 +31,4 @@ export default function ScrollToTop() {
     </button>
   );
 }
+
